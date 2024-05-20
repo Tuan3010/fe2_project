@@ -1,0 +1,240 @@
+body {
+  font-family: fantasy;
+  
+}
+@font-face{
+  font-family: iCielBCLodestone-Regular;
+  /* src: url(../fonts/iCielBCLodestone-Regular.ttf); */
+}
+header{
+  animation: renderHeader 3s linear ;
+}
+
+@keyframes renderHeader{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.hover {
+  cursor: pointer;
+  z-index: 5;
+}
+
+.called:hover,
+.Mess:hover {
+  animation: calledXoay 1s linear infinite;
+}
+
+.called::before,
+.Mess::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #775834;
+  position: absolute;
+
+}
+
+.called:hover::before,
+.Mess:hover::before {
+  animation: calledAnimation 1s linear infinite;
+}
+
+@keyframes calledAnimation {
+  0% {
+      scale: 1;
+      opacity: 3;
+  }
+
+  100% {
+      scale: 2;
+      opacity: 0;
+  }
+}
+
+.called::after,
+.Mess::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #775834;
+  position: absolute;
+  top: 0;
+}
+
+.called:hover::after,
+.Mess:hover::after {
+  animation: calledAnimation 1s linear 0.5s infinite;
+}
+
+@keyframes calledAnimation {
+  0% {
+      scale: 1;
+      opacity: 3;
+  }
+
+  100% {
+      scale: 2;
+      opacity: 0;
+  }
+}
+
+@keyframes calledXoay {
+  0% {
+      rotate: 0;
+  }
+
+  25% {
+      rotate: 20deg;
+  }
+
+  50% {
+      rotate: -20deg;
+  }
+
+  75% {
+      rotate: 20deg;
+  }
+
+  100% {
+      rotate: 0;
+  }
+}
+
+.menu {
+  margin-left: 10px;
+}
+
+.MenuContent {
+  left: -95px;
+  border: 2px solid #775834;
+  /* background-image: url(../image/bg-fe2.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-trademark{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}   
+/* .header-trademark::before{
+  content: "Thời Báo";
+  font-size: 30px;
+  font-weight: bold;
+} */
+.header-trademark::before{
+  content: "";
+  width: 80%;
+  position: absolute;
+  height: 4px;
+  background-color: #fff;
+  right: 0;
+  bottom: 10px;
+}
+.trademark{
+  font-family: iCielBCLodestone-Regular,Arial;
+  font-size: 100px;
+  justify-content: center;
+  
+  font-weight: bold;
+  background-clip: text;
+  position: relative;
+  
+}
+
+.div-text-animation{
+  position: relative;
+}
+.text-animation{
+  letter-spacing: 3px;
+  color: #a94728;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 0.1px;
+  text-shadow: 6px 8px 0px rgba(0, 0, 0, .5);
+  left: 0;
+  position: absolute;
+}
+
+.div-text-animation:nth-child(1) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) infinite ;
+}
+.div-text-animation:nth-child(2) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) 0.2s infinite ;
+}
+.div-text-animation:nth-child(3) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) 0.4s infinite ;
+}
+.div-text-animation:nth-child(4) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) 0.6s infinite ;
+}
+.div-text-animation:nth-child(5) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) 0.8s infinite ;
+}
+.div-text-animation:nth-child(6) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) 1s infinite ;
+}
+.div-text-animation:nth-child(7) .text-animation{
+  animation: textAnimation 6s cubic-bezier(.55,-0.45,.45,1.95) 1.2s infinite ;
+}
+@keyframes textAnimation{
+  0%{line-height: 200px; opacity: 0;}
+
+  40%{line-height: 100px; opacity: 3;}
+  70%{line-height: 100px; opacity: 9;}
+  80%{opacity: 3;}
+
+  100%{line-height: 200px; opacity: 0;}
+}
+
+.last-trade-mark span{
+  font-family: iCielBCLodestone-Regular,Arial;
+  letter-spacing: 6px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+}
+.last-trade-mark::before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #937a5f;
+  bottom: -20px;
+  position: absolute;
+
+}
+.last-trade-mark{
+  position: relative;
+}
+.logo{
+  font-family: iCielBCLodestone-Regular,Arial;
+}
+/* -------------------------------------Footer--------------------------------------------------- */
+.name-contact{
+  font-family: iCielBCLodestone-Regular,Arial;
+  font-size: 20px;
+  color: #41512b;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, .2);
+}
+.content-address{
+  letter-spacing: 2px;
+  color: #38260e;
+}
+.content-address a:hover{
+  color: #a94728;
+}
+.div-footer{
+  position: relative;
+  
+}
+.div-footer:before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color:#38260e ;
+  position: absolute;
+  top: -10px;
+}
