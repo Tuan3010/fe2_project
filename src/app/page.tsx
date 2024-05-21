@@ -1,9 +1,10 @@
 import Link from "../../node_modules/next/link";
+import './style-home.css'
 
 export default function Home() {
   return (
-    <div className="max-w-[1140px] mx-auto">
-      <div className="container">
+    <div className="max-w-[1200px] mx-auto">
+      <div className="">
         <div className="first">
           
             <div className="row">
@@ -15,9 +16,25 @@ export default function Home() {
                           <img src="./img/note.png" alt="" />
                         </div>
                       </div>
-                      <div className="col l-7">
+                      <div className="col l-7 relative">
+                        <div className="top-left h-[30px] w-[30px] border-l-[4px] border-t-[4px] border-[#ae4928]  absolute top-[16px] left-[20px]"></div>
+                        <div className="right-bottom h-[30px] w-[30px] border-r-[4px] border-b-[4px] border-[#ae4928]  absolute bottom-[16px] right-[20px]"></div>
+                        <div className="dot rounded-full bg-red-600 h-3 w-3 absolute top-[26px] left-[30px]"></div>
                         <video src="./video/output.mp4" muted loop autoPlay></video>
                       </div>
+                    </div>
+                    <div className="special-food mt-[50px] px-[50px] pb-[50px] border-x-[5px] border-b-[5px] border-[#7a5a36] relative">
+                        <div className="dash-line"></div>
+                        <div className="special-title-food text-[40px]  text-center relative top-[-24px] ">ĐẶC SẢN ĐẤT HÀ THÀNH</div>
+                        <div className="row">
+                          <div className="col l-6">
+                            <p>Hà Nội là cái nôi của một nền ẩm thực giản dị, đơn sơ nhưng chứa đựng trong từng món ăn sự chăm chút, tinh tế và tỉ mỉ của người nấu. Chỉ cần một chút thay đổi trong cách chế biến thì người Hà Nội cũng nhận ra món ăn đã bị biến thể ít nhiều. Đến đậu hũ cho món bún đậu cũng phải chiên lửa thật khéo, để mặt ngoài vẫn giòn nhưng bên trong thì đậu vẫn còn mềm, béo và thơm khi cắt ra, hay đến món chả rươi cũng phải làm thật kỹ lưỡng để chả không bị khô, và rươi trong chả vẫn không bị mất vị. Đến chén nước chấm cũng phải tỉ mỉ trong từng nguyên liệu thêm vào, vì chỉ thiếu một thành phần thì phần linh hồn của món ăn đã mất đi quá nửa.</p>
+                            <img src="./img/anh2.jpg" alt="" />
+                          </div>
+                          <div className="col l-6">
+                            <div className="bg-img-left "></div>
+                          </div>
+                        </div>
                     </div>
                   </div>
               </div>

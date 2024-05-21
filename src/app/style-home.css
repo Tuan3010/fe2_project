@@ -1,0 +1,83 @@
+.note-img{
+  /* position: relative; */
+  animation: upanddown 1s infinite;
+  /* transition: ; */
+}
+.bg-img-left{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url('/img/bg-titile-record.png');
+}
+/* .special-food::after, */
+.special-food::before{
+  
+  left: 0;
+}
+.special-food::before,
+.special-food::after{
+  content:'';
+  position: absolute;
+  height: 4px;
+  width: 60px;
+  background-color: #7a5a36;
+  top: 0;
+  right: 0;
+}
+
+
+.dash-line{
+  bottom: 12px;
+  left: 14px;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  border-left: 3px;
+  border-right: 3px;
+  border-bottom: 3px;
+  border-color: #7a5a36;
+  position: absolute;
+  z-index: 1;
+  border-style: dashed;
+  
+}
+.dash-line::after{
+  content:'';
+  top: 0;
+  width: 40px;
+  position: absolute;
+  border-top: #7a5a36 3px dashed;
+}
+.dash-line::before{
+  content:'';
+  top: 0;
+  right: 0;
+  width: 40px;
+  position: absolute;
+  border-top: #7a5a36 3px dashed;
+}
+.dot{
+  animation: dotRecord 1s infinite;
+}
+@keyframes upanddown{
+  0%{
+    transform: translateY(-15px);
+  }
+  50%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+
+}
+@keyframes dotRecord{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}

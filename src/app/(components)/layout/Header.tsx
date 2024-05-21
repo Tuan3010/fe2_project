@@ -11,7 +11,6 @@ export default function Header() {
       <header>
 
           <div className="div">
-
               <div className='flex  gap-8'>
                   <div className=" w-1/6">
                       <div className="logo items-center flex flex-col ">
