@@ -11,7 +11,6 @@ export default function Header() {
       <header className='px-[200px]  w-full mb-20'>
 
           <div className="div">
-
               <div className='flex  gap-8'>
                   <div className=" w-1/6">
                       <div className="logo items-center flex flex-col ">
