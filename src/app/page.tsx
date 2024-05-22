@@ -25,7 +25,7 @@ export default function Home() {
                     </div>
                     <div className="special-food mt-[50px] px-[50px] pb-[50px] border-x-[5px] border-b-[5px] border-[#7a5a36] relative">
                         <div className="dash-line"></div>
-                        <div className="special-title-food text-[40px]  text-center relative top-[-24px] ">ĐẶC SẢN ĐẤT HÀ THÀNH</div>
+                        <div className="special-title-food text-[40px]  text-center relative top-[-24px] ">ĐẶC SẢN ĐẤT HÀ THÀNH </div>
                         <div className="row">
                           <div className="col l-6">
                             <p>Hà Nội là cái nôi của một nền ẩm thực giản dị, đơn sơ nhưng chứa đựng trong từng món ăn sự chăm chút, tinh tế và tỉ mỉ của người nấu. Chỉ cần một chút thay đổi trong cách chế biến thì người Hà Nội cũng nhận ra món ăn đã bị biến thể ít nhiều. Đến đậu hũ cho món bún đậu cũng phải chiên lửa thật khéo, để mặt ngoài vẫn giòn nhưng bên trong thì đậu vẫn còn mềm, béo và thơm khi cắt ra, hay đến món chả rươi cũng phải làm thật kỹ lưỡng để chả không bị khô, và rươi trong chả vẫn không bị mất vị. Đến chén nước chấm cũng phải tỉ mỉ trong từng nguyên liệu thêm vào, vì chỉ thiếu một thành phần thì phần linh hồn của món ăn đã mất đi quá nửa.</p>
@@ -39,9 +39,8 @@ export default function Home() {
                   </div>
               </div>
               <div className="col l-3 px-[15px]">
-                <div className="boxContentRight">
-                  <Link href={'./home'}>HOME</Link>
-                  <h3>Một vòng hà thành</h3>
+                <div className="boxContentRight">                 
+                  <h3 className="title-right-first relative text-[40px] font-[iCielBCLodestone-Regular] font-bold text-center">MỘT VÒNG HÀ THÀNH <span className="text-[16px] absolute text-[#7a5a36] bottom-[-10px] left-[50%] rotate-[45deg]">=</span></h3>
                   <p>Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam và cũng là kinh đô của hầu hết các vương triều phong kiến Việt trước đây. Do đó, lịch sử Hà Nội gắn liền với sự thăng trầm của lịch sử Việt Nam qua các thời kỳ.</p>
                   <p>Hà Nội là thành phố trực thuộc trung ương có diện tích lớn nhất cả nước từ khi tỉnh Hà Tây sáp nhập vào, đồng thời cũng là địa phương đứng thứ nhì về dân số với gần 8 triệu người (năm 2018), sau Thành phố Hồ Chí Minh. Tuy nhiên, nếu tính những người cư trú không đăng ký thì dân số thực tế của thành phố này năm 2017 là hơn 9 triệu người.</p>
                   <div className="img">
