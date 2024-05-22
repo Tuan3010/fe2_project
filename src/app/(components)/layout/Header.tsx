@@ -8,7 +8,7 @@ import {
 import './layout.css'
 export default function Header() {
   return (
-      <header>
+      <header className='px-[200px]  w-full mb-20'>
 
           <div className="div">
 
@@ -19,14 +19,14 @@ export default function Header() {
                           <DropdownMenu>
                               <DropdownMenuTrigger className='w-full h-[50px] bg-[#b34b29]  flex items-center px-2'>
                                   <img src="https://dauhomemade.vn/apps/themes/bundau/img/icon_menu.png" alt="" />
-                                  <span className='font-[iCielBCGrindstone-Regular] text-xl font-bold menu text-[#efd698] '>Menu BunDau</span>
+                                  <span className='font-[iCielBCGrindstone-Regular] text-xl font-bold menu text-[#efd698] '>DANH MỤC</span>
                               </DropdownMenuTrigger>
                               <DropdownMenuContent className='bg-transparent w-[300px]  absolute MenuContent '>
-                                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                                  <DropdownMenuLabel>Restaurant menu</DropdownMenuLabel>
                                   <DropdownMenuSeparator />
                                   <DropdownMenuItem>Profile</DropdownMenuItem>
                                   <DropdownMenuItem>Billing</DropdownMenuItem>
-                                  <DropdownMenuItem>Team</DropdownMenuItem>
+                                  <DropdownMenuItem><a href="#">Đồ Ăn Vặt</a></DropdownMenuItem>
                                   <DropdownMenuItem>Subscription</DropdownMenuItem>
                               </DropdownMenuContent>
                           </DropdownMenu>
@@ -38,13 +38,13 @@ export default function Header() {
                           Thời Báo
                       </div>
                       <div className="trademark flex w-full grid grid-cols-7 h-[130px]">
-                          <div className="div-text-animation w-1/7"><span className="text-animation">B</span></div>
-                          <div className="div-text-animation w-1/7"><span className="text-animation">Ú</span></div>
-                          <div className="div-text-animation w-1/7"><span className="text-animation">N</span></div>
+                          <div className="div-text-animation w-1/7"><span className="text-animation">T</span></div>
+                          <div className="div-text-animation w-1/7"><span className="text-animation">I</span></div>
+                          <div className="div-text-animation w-1/7"><span className="text-animation">Ệ</span></div>
+                          <div className="div-text-animation w-1/7"><span className="text-animation">M</span></div>
                           <div className="div-text-animation w-1/7"><span className="text-animation">-</span></div>
-                          <div className="div-text-animation w-1/7"><span className="text-animation">Đ</span></div>
-                          <div className="div-text-animation w-1/7"><span className="text-animation">Ậ</span></div>
-                          <div className="div-text-animation w-1/7"><span className="text-animation">U</span></div>
+                          <div className="div-text-animation w-1/7"><span className="text-animation">Ă</span></div>
+                          <div className="div-text-animation w-1/7"><span className="text-animation">N</span></div>
 
                       </div>
                       <div className="last-trade-mark h-[65px] w-full bg-[#7a5a36] grid place-content-center">
