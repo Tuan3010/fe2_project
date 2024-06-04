@@ -2,7 +2,11 @@ import React from 'react'
 import './layout.css'
 export default function Footer() {
     return (
+<<<<<<< HEAD
         <footer className='mt-14'>
+=======
+        <footer className='mt-[30px]'>
+>>>>>>> cb64c3fcb0930cc94bd7fac682ebf0712e1df506
             <div className="w-full px-[200px]">
                 <div className="w-full div-footer"></div>
             </div>

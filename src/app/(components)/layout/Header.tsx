@@ -25,9 +25,15 @@ export default function Header() {
                                   <DropdownMenuLabel>Restaurant menu</DropdownMenuLabel>
                                   <DropdownMenuSeparator />
                                   <DropdownMenuItem>Profile</DropdownMenuItem>
+<<<<<<< HEAD
                                   <DropdownMenuItem><Link href={'/snacks'}>Snacks</Link></DropdownMenuItem>
                                   <DropdownMenuItem><Link href={'/sanpham'}>Sản Phẩm<menu type="toolbar"></menu></Link></DropdownMenuItem>
                                   <DropdownMenuItem><a href="#">Đồ Ăn Vặt</a></DropdownMenuItem>
+=======
+                                  <DropdownMenuItem><a href="/traditional">Múa Rối</a></DropdownMenuItem>
+                                  <DropdownMenuItem><a href="/snacks">Đồ Ăn Vặt</a></DropdownMenuItem>
+                                  <DropdownMenuItem><a href="/traditional">Nước uống</a></DropdownMenuItem>
+>>>>>>> cb64c3fcb0930cc94bd7fac682ebf0712e1df506
                                   <DropdownMenuItem>Subscription</DropdownMenuItem>
                               </DropdownMenuContent>
                           </DropdownMenu>
