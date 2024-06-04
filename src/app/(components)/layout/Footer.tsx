@@ -2,7 +2,7 @@ import React from 'react'
 import './layout.css'
 export default function Footer() {
     return (
-        <footer>
+        <footer className='mt-14'>
             <div className="w-full px-[200px]">
                 <div className="w-full div-footer"></div>
             </div>

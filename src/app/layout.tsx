@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./my_grid.css"
 import "./globals.css";
 import Header from "./(components)/layout/Header";
 import Footer from "./(components)/layout/Footer";
+import MenuFixed from "./(components)/layout/MenuFixed";
+import 'react-toastify/dist/ReactToastify.css';
+import {ToastContainer} from 'react-toastify';
 
 // font chữ
 const inter = Inter({ subsets: ["latin"] });
@@ -19,14 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-      
-      </head>
       <body className={inter.className}>
         
         <Header></Header>
+        <MenuFixed></MenuFixed>
         {children}
         <Footer></Footer>
+        <ToastContainer></ToastContainer>
       </body>
     </html>
   );

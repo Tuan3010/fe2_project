@@ -1,6 +1,6 @@
 body {
   font-family: fantasy;
-  background-image:  url('../image/dot.png'),url('../image/dot2.png'),url('../image/dot3.png'),url('../image/bg-fe2.jpg');
+    background-image:  url('/img/dot.png'),url('/img/dot2.png'),url('/img/dot3.png'),url('/img/bg-fe2.jpg');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: center,center,center,center;
     background-size: cover;    
@@ -115,7 +115,7 @@ header{
 .MenuContent {
   left: -95px;
   border: 2px solid #775834;
-  background-image: url(../image/bg-fe2.jpg);
+  background-image: url(/image/bg-fe2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: iCielBCLodestone-Regular;
@@ -270,4 +270,14 @@ header{
     background-size: 400% 400%;
     background-attachment: fixed;
 }
+/* ------------------------------Menu fixed---------------------------- */
+.item-menu-fixed{
+  transition: outline-offset .3s ease;
+}
+.item-menu-fixed:hover{
+  outline-offset: 0;
+  ouline-uppset: 10px;
+}
+
+
 

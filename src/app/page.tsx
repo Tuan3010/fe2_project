@@ -25,7 +25,7 @@ export default function Home() {
                     </div>
                     <div className="special-food mt-[50px] px-[50px] pb-[50px] border-x-[5px] border-b-[5px] border-[#7a5a36] relative">
                         <div className="dash-line"></div>
-                        <div className="special-title-food text-[40px]  text-center relative top-[-24px] ">ĐẶC SẢN ĐẤT HÀ THÀNH </div>
+                        <div className="special-title-food text-[40px]  text-center relative top-[-24px] font-[iCielBCLodestone-Regular] font-bold ">ĐẶC SẢN ĐẤT HÀ THÀNH </div>
                         <div className="row">
                           <div className="col l-6">
                             <p>Hà Nội là cái nôi của một nền ẩm thực giản dị, đơn sơ nhưng chứa đựng trong từng món ăn sự chăm chút, tinh tế và tỉ mỉ của người nấu. Chỉ cần một chút thay đổi trong cách chế biến thì người Hà Nội cũng nhận ra món ăn đã bị biến thể ít nhiều. Đến đậu hũ cho món bún đậu cũng phải chiên lửa thật khéo, để mặt ngoài vẫn giòn nhưng bên trong thì đậu vẫn còn mềm, béo và thơm khi cắt ra, hay đến món chả rươi cũng phải làm thật kỹ lưỡng để chả không bị khô, và rươi trong chả vẫn không bị mất vị. Đến chén nước chấm cũng phải tỉ mỉ trong từng nguyên liệu thêm vào, vì chỉ thiếu một thành phần thì phần linh hồn của món ăn đã mất đi quá nửa.</p>
@@ -49,6 +49,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          
+        </div>
+        <div className="second">
           
         </div>
       </div>
