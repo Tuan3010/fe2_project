@@ -5,6 +5,7 @@ import {
   DropdownMenuItem, DropdownMenuLabel,
   DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu'
+import Link from '../../../../node_modules/next/link'
 import './layout.css'
 export default function Header() {
   return (
@@ -24,7 +25,8 @@ export default function Header() {
                                   <DropdownMenuLabel>Restaurant menu</DropdownMenuLabel>
                                   <DropdownMenuSeparator />
                                   <DropdownMenuItem>Profile</DropdownMenuItem>
-                                  <DropdownMenuItem>Billing</DropdownMenuItem>
+                                  <DropdownMenuItem><Link href={'/snacks'}>Snacks</Link></DropdownMenuItem>
+                                  <DropdownMenuItem><Link href={'/sanpham'}>Sản Phẩm<menu type="toolbar"></menu></Link></DropdownMenuItem>
                                   <DropdownMenuItem><a href="#">Đồ Ăn Vặt</a></DropdownMenuItem>
                                   <DropdownMenuItem>Subscription</DropdownMenuItem>
                               </DropdownMenuContent>
